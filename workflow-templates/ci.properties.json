@@ -1,0 +1,7 @@
+{
+  "name": "Verify (pnpm)",
+  "description": "Installs with pnpm and runs the repository gate: lint, typecheck, tests and the brand check.",
+  "iconName": "ci",
+  "categories": ["JavaScript", "TypeScript"],
+  "filePatterns": ["package.json", "pnpm-lock.yaml"]
+}

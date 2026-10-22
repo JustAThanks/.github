@@ -1,0 +1,38 @@
+name: Bug
+description: Something is wrong.
+labels: ["kind: bug"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What happens, in one or two sentences. Name the defect, not the symptom.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: How to reproduce it
+      description: Exact steps, the page or endpoint, and the account or handle if it matters.
+      placeholder: |
+        1. Open ...
+        2. Click ...
+        3. See ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What should happen instead
+    validations:
+      required: true
+  - type: input
+    id: where
+    attributes:
+      label: Where
+      description: Browser and device, or the API client and version.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Screenshots, payment references (never card or bank details), logs.

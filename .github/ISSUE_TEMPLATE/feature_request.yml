@@ -1,0 +1,28 @@
+name: Feature
+description: Something the product should do.
+labels: ["kind: feature"]
+body:
+  - type: textarea
+    id: who
+    attributes:
+      label: Who needs it and why
+      description: The person (a creator, a supporter, an admin) and the situation they are in.
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What it should do
+      description: Describe the outcome, not the implementation.
+    validations:
+      required: true
+  - type: textarea
+    id: elsewhere
+    attributes:
+      label: How others do it
+      description: Links or notes on how Buy Me a Coffee, Ko-fi, Patreon or others handle this, if they do.
+  - type: textarea
+    id: done
+    attributes:
+      label: Done means
+      description: The checks that would show it works.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: https://github.com/JustAThanks/.github/blob/main/SECURITY.md
+    about: Never open a public issue for a vulnerability. Email security@justathanks.com instead.
+  - name: Support
+    url: https://github.com/JustAThanks/.github/blob/main/SUPPORT.md
+    about: Questions about using the product go to support@justathanks.com.
