@@ -18,6 +18,6 @@ We build a product about gratitude, and we hold ourselves to the same standard.
 
 ## Reporting
 
-Write to conduct@justathanks.com.
+Write to hello@justathanks.com.
 Reports are read by the maintainers, kept confidential, and answered within five working days.
 Anyone who breaks this code may be removed from the organisation's repositories and discussions.

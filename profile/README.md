@@ -2,31 +2,41 @@
 
 Thank-yous, paid in full.
 
-A support page for creators.
-Fans leave a note and an amount, in two taps, with no account.
-Every rupee of a thanks reaches the creator.
-Memberships and downloads carry a small fee, and the money reaches the creator's bank within two working days.
+[justathanks.com](https://justathanks.com) is a support page for creators.
+A fan opens your page, leaves a note and an amount, and pays with any UPI app in two taps.
+No account to make, no app to install.
 
-## Repositories
+## What we promise creators
 
-| Repository | What it holds |
-| --- | --- |
-| `justathanks` | The website: landing page, creator pages, the dashboard and the admin panel. TanStack Start on Cloudflare Workers. |
-| `server` | The API: payments, the ledger, memberships, payouts and the admin API. Hono on Cloudflare Workers with Postgres. |
-| `blog` | The blog. Astro, deployed on Cloudflare. |
-| `.github` | This profile, the templates every repository shares, and the policies. |
+- A thanks reaches you whole.
+  Fans can add a small amount for us on top, and that is the only way a thanks pays for the service.
+- Memberships and downloads carry one small fee, and nothing hidden behind it.
+- Your money reaches your bank account on a fixed schedule, with a statement you can read.
+- Your page is yours: your colours, your sections, your schedule, and your own stylesheet if you want one.
+- Your supporters are yours: export them any time.
 
-## How we work
+## Who it is for
 
-- One-line commits in plain English, one commit per change.
-- Pull requests say only what the diff cannot show.
-- Money is integer paise, never floats.
-- A payment counts as paid only when a verified webhook says so.
-- Every change runs the full gate before it is pushed: lint, typecheck, tests, brand check.
+Creators in India first: people who make videos, music, writing, podcasts, lessons, art, software and communities.
+Support for creators in other countries follows.
 
-The full conventions are in `AGENTS.md` at the root of each repository.
+## Find us
 
-## Contact
+- Website: [justathanks.com](https://justathanks.com)
+- YouTube: [@JustAThanks](https://www.youtube.com/@JustAThanks)
+- X: [@JustAThanks_com](https://x.com/JustAThanks_com)
+- Instagram: [@justathanks](https://www.instagram.com/justathanks/)
+- Threads: [@justathanks](https://www.threads.com/@justathanks)
+- Reddit: [r/JustAThanks](https://www.reddit.com/r/JustAThanks/)
 
-support@justathanks.com for anything about the product.
-security@justathanks.com for security reports, see `SECURITY.md`.
+## Write to us
+
+- hello@justathanks.com for anything: a question, an idea, press, partnerships.
+- support@justathanks.com when something on your page or with a payment needs a look.
+- security@justathanks.com for a vulnerability, see [the security policy](../SECURITY.md).
+  Never open a public issue for one.
+
+## About this organisation
+
+The product's code is private.
+What we publish here are the standards we hold ourselves to: the [code of conduct](../CODE_OF_CONDUCT.md), the [security policy](../SECURITY.md) and [how to get help](../SUPPORT.md).
